@@ -69,7 +69,7 @@ function App() {
         </div>
         <button className='border-cyan-700 border-2' onClick={clickHandler} ref={button}>Give it back gradually</button>
         
-        <div>
+        <div className='answer-box'>
           {spacedArray}
         </div>
       </div>
